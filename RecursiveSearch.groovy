@@ -16,7 +16,7 @@ class RecursiveSearch {
             println "Directory is valid. Validating backup directory..."
 
             // Create a backups directory if it doesn't exist
-            File backupsDir = new File("${dir}-Backups")
+            File backupsDir = new File("Backups")
             if (!backupsDir.exists()) {
                 println "Backup directory was created. Starting search..."
                 backupsDir.mkdirs()

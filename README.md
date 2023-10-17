@@ -15,7 +15,12 @@ The program takes four command-line arguments:
 
 This is an example: 
 ```bash 
-RecursiveSearch <directory> <original_text> <replace_text> [output_list_path]
+groovy RecursiveSearch <directory> <original_text> <replace_text> [output_list_path]
+```
+
+This an example you can use now!
+```bash 
+groovy RecursiveSearch .\DirectoryofFiles\ apple peach AuditFile
 ```
 
 ### Class Constructor
